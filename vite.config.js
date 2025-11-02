@@ -4,5 +4,7 @@ import tsconfigPaths from "vite-tsconfig-paths"
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),tsconfigPaths()],
+  base: '/Ai-resume-analyzer/',
+  plugins: [react(), tsconfigPaths()],
+  build: { outDir: 'dist' }
 })
