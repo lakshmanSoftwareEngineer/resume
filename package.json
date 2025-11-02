@@ -1,5 +1,5 @@
 {
-  "homepage": "http://github.com/lakshmanSoftwareEngineer/Ai-resume-analyzer",
+  "homepage": "https://lakshmanSoftwareEngineer.github.com/resume",
   "name": "ai-resume-analyzer",
   "private": true,
   "version": "0.0.0",
@@ -10,8 +10,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "npm run dev",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.27.1",
